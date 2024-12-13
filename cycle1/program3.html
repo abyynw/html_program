@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Form with Table Layout</title>
+	</head>
+	<body>
+		<center>
+			<div class="container">
+				<form>
+					<table>
+						<tr>
+							<h1>Registration form</h1>
+						</tr>
+						<tr>
+							<td><label for="first-name">First Name</label></td>
+							<td>
+								<input
+									type="text"
+									id="first-name"
+									placeholder="Enter Your First Name"
+									required
+								/>
+							</td>
+						</tr>
+						<tr>
+							<td><label for="last-name">Last Name</label></td>
+							<td>
+								<input
+									type="text"
+									id="last-name"
+									placeholder="Enter Your Last Name"
+									required
+								/>
+							</td>
+						</tr>
+						<tr>
+							<td><label for="email">Email</label></td>
+							<td>
+								<input
+									type="text"
+									id="email"
+									placeholder="Enter your email"
+									required
+								/>
+							</td>
+						</tr>
+						<tr>
+							<td><label for="phone">Phone Number</label></td>
+							<td>
+								<input
+									type="text"
+									id="phone"
+									placeholder="Enter your phone number"
+									required
+								/>
+							</td>
+						</tr>
+						<tr>
+							<td><label for="address">Address</label></td>
+							<td>
+								<textarea
+									id="address"
+									placeholder="Enter your address"
+									required
+								></textarea>
+							</td>
+						</tr>
+						<tr>
+							<td><span class="gender-title">Gender</span></td>
+							<td>
+								<label for="female">
+									<input type="radio" name="gender" id="female" />
+									<span class="gender">Female</span>
+								</label>
+								<label for="male">
+									<input type="radio" name="gender" id="male" />
+									<span class="gender">Male</span>
+								</label>
+							</td>
+						</tr>
+						<tr>
+							<td><span class="hobbie-title">Hobbies</span></td>
+							<td>
+								<div>
+									<input type="checkbox" name="reading" id="reading" />
+									<label for="reading">Reading</label>
+								</div>
+								<div>
+									<input type="checkbox" name="gaming" id="gaming" />
+									<label for="gaming">Gaming</label>
+								</div>
+								<div>
+									<input type="checkbox" name="cooking" id="cooking" />
+									<label for="cooking">Cooking</label>
+								</div>
+								<div>
+									<input type="checkbox" name="traveling" id="traveling" />
+									<label for="traveling">Traveling</label>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" style="text-align: center">
+								<a href="thankyou.html"
+									><input type="button" value="Submit"
+								/></a>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" style="text-align: center">
+								<input type="button" value="Cancel" class="cancel" />
+							</td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</center>
+	</body>
+</html>
